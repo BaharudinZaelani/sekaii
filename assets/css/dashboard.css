@@ -1,0 +1,21 @@
+.row {
+	padding: 0;
+	margin: 0;
+}
+.sidebar {
+	border-right: 1px solid rgba(0,0,0,.2);
+	height: 100vh;
+}
+.navbar-nav {
+	flex-direction:  row;
+}
+.nav-link {
+	margin: 0 10px 0 0;
+}
+.navbar {
+	height: 50px;
+}
+.col, .sidebar{
+	margin: 0;
+	padding: 0;
+}
