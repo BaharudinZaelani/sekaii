@@ -51,7 +51,9 @@ section {
 .main-color-text {
 	color: #609ddb !important;
 }
-
+.pagination {
+	justify-content: center;
+}
 @media (max-width: 768px) {
 	.kanan {
 		margin-bottom: 12px;
