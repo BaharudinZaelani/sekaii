@@ -54,6 +54,20 @@ section {
 .pagination {
 	justify-content: center;
 }
+.video-view {
+	position: relative;
+}
+.video-view iframe {
+	position: relative;
+	z-index: 999;
+}
+.load {
+    text-align: center;
+    position: absolute;
+    top: 155px;
+    right: 50%;
+    z-index: 1;
+}
 @media (max-width: 768px) {
 	.kanan {
 		margin-bottom: 12px;
