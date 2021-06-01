@@ -15,7 +15,7 @@
 .navbar {
 	height: 50px;
 }
-.col, .sidebar{
+.col, .sidebar, .col-md{
 	margin: 0;
 	padding: 0;
 }
