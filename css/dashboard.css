@@ -1,0 +1,44 @@
+.row {
+	padding: 0;
+	margin: 0;
+}
+.sidebar {
+	border-right: 1px solid rgba(0,0,0,.2);
+	height: 100vh;
+}
+.navbar-nav {
+	flex-direction:  row;
+}
+.nav-link {
+	margin: 0 10px 0 0;
+}
+.navbar {
+	height: 50px;
+}
+.col, .sidebar, .col-md{
+	margin: 0;
+	padding: 0;
+}
+.img-profile {
+	width: 80px;
+}
+svg {
+	margin-top: -4px;
+	transform: scale(1.3);
+}
+.offcanvas-start {
+	width: 200px !important;
+}
+.list-group-item {
+	background-color: transparent;
+	color: white;
+	border-bottom: 1px solid #515151 !important;
+}
+.list-group-item a {
+}
+@media( max-width: 768px ) {
+	.profile-setting {
+		margin-top: -6px;
+		padding: 0 0 0 15px;
+	}
+}
